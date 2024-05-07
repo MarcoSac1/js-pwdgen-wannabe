@@ -3,6 +3,5 @@ const userSurname=prompt('type a surname');
 const userFavouriteColor=prompt('type a color');
 const userNumber=prompt('type a number');
 
-console.log('userName' + 'userSurname' + 'userFavouriteColor' + 'userNumber');
-
-
+console.log(userName + userSurname + userFavouriteColor + userNumber);
+document.getElementById('output').innerHTML = userName + userSurname + userFavouriteColor + userNumber;
